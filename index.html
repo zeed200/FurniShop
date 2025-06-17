@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FurniShop</title>
+  <link href="dist/tailwind.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body class=" text-gray-900">
+  <section class="relative   bg-[url(/src/assets/images/Hero.jpg)] bg-cover h-[100vh] bg-left bg-no-repeat text-white">
+
+    <nav class="flex justify-between items-center p-6 mx-10 md:mx-10">
+      <div class="font-bold text-2xl">FurniShop</div>
+      <ul class="hidden md:flex gap-8">
+        <li><a href="#" class="hover:text-amber-300 transition">Home</a></li>
+        <li><a href="#a" class="hover:text-amber-300 transition">About</a></li>
+        <li><a href="#b" class="hover:text-amber-300 transition">Features</a></li>
+        <li><a href="#c" class="hover:text-amber-300 transition">Contact</a></li>
+      </ul>
+      <button class="md:hidden p-2 rounded hover:bg-black-200 cursor-pointer" id="menu-btn">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+    <ul class="flex flex-col gap-4 px-6 py-4  bg-black/40 shadow hidden " id="mobile-menu">
+      <li><a href="#" class="hover:text-amber-300 transition">Home</a></li>
+      <li><a href="#a" class="hover:text-amber-300 transition">About</a></li>
+      <li><a href="#b" class="hover:text-amber-300 transition">Features</a></li>
+      <li><a href="#c" class="hover:text-amber-300 transition">Contact</a></li>
+    </ul>
+
+
+    <div class="flex flex-col items-center justify-center text-center px-4 h-[calc(70vh-80px)]">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fade-in w-[100%]">
+          Creative Home Simplify Your Furniture
+        </h1>
+
+        <p class="mb-8 text-lg animate-fade-in delay-200">
+          Do I have consent to record this meeting gain location, root-and-branch, review, nor game plan who's the goto
+        </p>
+        <button
+          class="px-11 py-3    text-white rounded-lg backdrop-brightness-50 cursor-pointer shadow hover:bg-primary-dark transition animate-bounce-in">
+          Shop Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="a"
+    class="-mt-6 z-10 relative bg-[#286F6C]  shadow-xl text-white mr-15 ml-15 rounded-md h-72 md:h-44 flex items-center justify-center overflow-auto px-4">
+    <div class="max-w-5xl mx-full grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="px-4 relative">
+        <div class="text-3xl font-bold counter" data-count="7">0</div>
+        <div class="text-2xl mt-2">Year Experience</div>
+        <div class="md:block absolute top-1/2 right-0 h-20 w-[1px] bg-white  transform -translate-y-1/2"></div>
+      </div>
+      <div class="px-4 relative">
+        <div class="text-3xl font-bold counter" data-count="2">0</div>
+        <div class="text-2xl mt-2">Opened in the country</div>
+        <div class="hidden md:block absolute top-1/2 right-0 h-20 w-[1px] bg-white transform -translate-y-1/2"></div>
+      </div>
+      <div class="px-4 relative">
+        <div class="text-3xl font-bold counter" data-count="10">0</div>
+        <div class="text-2xl mt-2">Furniture sold</div>
+        <div class="md:block absolute top-1/2 right-0 h-20 w-[1px] bg-white transform -translate-y-1/2"></div>
+      </div>
+      <div class="px-4">
+        <div class="text-3xl font-bold counter" data-count="260">0</div>
+        <div class="text-2xl mt-2">Variant Furniture</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+      <img src="/src/assets/images/about.jpg" alt="Feature"
+        class="rounded-lg shadow-lg w-full h-64 object-cover animate-fade-in" />
+      <div>
+        <h2 class="text-2xl font-bold mb-4">We Create Your Home More Aesthetic</h2>
+        <p class="mb-4 text-gray-600">Furniture power is a software as services for multipurpose business management
+          system.</p>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-2">
+            <span class="mt-1 text-primary">&#10003;</span>
+            <div>
+              <div class="font-semibold">Valuation Services</div>
+              <div class="text-sm text-gray-500">Sometimes features require a short description. This can be detailed
+                description</div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-1 text-primary">&#10003;</span>
+            <div>
+              <div class="font-semibold">Development of Furniture Models</div>
+              <div class="text-sm text-gray-500">Sometimes features require a short description. This can be detailed
+                description</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="b" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8">New In Store Now</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div
+          class="col-span-1 flex flex-col justify-between bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition">
+          <div>
+            <div class="text-lg font-semibold mb-2">Get the latest items immediately with promo prices</div>
+          </div>
+          <a href="#all" class="mt-4 text-primary font-semibold hover:underline transition">Check All &rarr;</a>
+        </div>
+        <div class="col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow-lg p-4 hover:scale-105 transition text-center">
+            <img src="/src/assets/images/chair.jpg" alt="Chair" class="w-full h-32 object-cover rounded mb-2" />
+            <div class="font-semibold">Chair</div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg p-4 hover:scale-105 transition text-center">
+            <img src="/src/assets/images/bed.jpg" alt="Bed" class="w-full h-32 object-cover rounded mb-2" />
+            <div class="font-semibold">Bed</div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg p-4 hover:scale-105 transition text-center">
+            <img src="/src/assets/images/cupboard.jpg" alt="Cupboard" class="w-full h-32 object-cover rounded mb-2" />
+            <div class="font-semibold">Cupboard</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">The Best Furniture Manufacturer Of Your Choice</h2>
+        <p class="mb-4 text-gray-600">Furniture power is a software as services for multipurpose business management
+          system, especially for them who are running two or more business explore the future Furniture power is a
+          software as services.</p>
+      </div>
+      <img src="/src/assets/images/kitchen.png" alt="Kitchen"
+        class="rounded-lg shadow-lg w-full h-64 object-cover animate-fade-in" />
+    </div>
+  </section>
+
+  <section id="all" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8 text-center">All Product</h2>
+      <div class="relative">
+        <button id="slider-prev"
+          class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full shadow p-2 hover:bg-primary hover:text-white transition hidden md:block">
+          &#8592;
+        </button>
+        <div id="product-slider" class="flex gap-6 overflow-x-auto snap-x scroll-smooth pb-4">
+
+        </div>
+        <button id="slider-next"
+          class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full shadow p-2 hover:bg-primary hover:text-white transition hidden md:block">
+          &#8594;
+        </button>
+      </div>
+      <div class="flex justify-center mt-4 gap-2" id="slider-dots"></div>
+    </div>
+  </section>
+
+
+  <section class="mb-1 bg-white">
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">What People Are Saying About Us</h2>
+        <div id="testimonial" class="bg-gray-100 rounded-lg p-6 shadow animate-fade-in">
+
+        </div>
+        <div class="flex gap-2 mt-4">
+          <button id="testimonial-prev"
+            class="w-8 h-8 rounded-full cursor-pointer bg-black text-white flex items-center justify-center hover:bg-primary-dark transition">&#8592;</button>
+          <button id="testimonial-next"
+            class="w-8 h-8 rounded-full cursor-pointer bg-black text-white flex items-center justify-center hover:bg-primary-dark transition">&#8594;</button>
+        </div>
+      </div>
+      <img src="/src/assets/images/livingroom.jpg" alt="Testimonial"
+        class="rounded-lg shadow-lg w-full h-64 object-cover animate-fade-in" />
+    </div>
+  </section>
+
+
+  <section id="c" class="relative h-full py-16 text-white">
+
+    <div class="absolute inset-0">
+      <img src="/src/assets/images/mail.jpg" alt="bg-email" class="absolute inset-0 w-full h-full object-cover z-0" />
+
+
+    </div>
+
+
+    <div class="relative h-80 max-w-6xl mx-auto px-4 flex items-center justify-end ">
+      <div class="w-full sm:w-1/2 bg-white/70 backdrop-blur-md p-8 rounded-lg text-black shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Get more discount off your order</h2>
+        <p class="mb-6">Join our mailing list</p>
+        <form class="flex flex-col sm:flex-row items-center gap-4">
+          <input type="email" placeholder="Your email address"
+            class="px-4 py-2 rounded w-full sm:w-auto bg-white text-gray-900" required>
+          <button type="submit"
+            class="px-8 py-2 bg-black text-white font-semibold rounded hover:bg-gray-800 transition">Shop Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+        <h2 class="text-white text-xl font-semibold mb-4 md:mb-0">FurniShop</h2>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <hr class="border-gray-700 mb-8" />
+
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
+        <div>
+          <h3 class="text-white font-semibold mb-3">Our Products</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">The Support Suite</a></li>
+            <li><a href="#" class="hover:underline">The Sales Suite</a></li>
+            <li><a href="#" class="hover:underline">Support</a></li>
+            <li><a href="#" class="hover:underline">Guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Top Features</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Ticketing System</a></li>
+            <li><a href="#" class="hover:underline">Knowledge Base</a></li>
+            <li><a href="#" class="hover:underline">Community Forums</a></li>
+            <li><a href="#" class="hover:underline">Help Desk Software</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Resources</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Product Support</a></li>
+            <li><a href="#" class="hover:underline">Request Demo</a></li>
+            <li><a href="#" class="hover:underline">Library</a></li>
+            <li><a href="#" class="hover:underline">Peoplepower Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Company</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="#" class="hover:underline">Press</a></li>
+            <li><a href="#" class="hover:underline">Investors</a></li>
+            <li><a href="#" class="hover:underline">Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Favourite Things</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">For Enterprise</a></li>
+            <li><a href="#" class="hover:underline">For Startups</a></li>
+            <li><a href="#" class="hover:underline">For Benchmark</a></li>
+            <li><a href="#" class="hover:underline">For Small Business</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="text-center text-xs text-gray-500 mt-12">
+        © FurniShop 2025 - All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="dist/main.js"></script>
+</body>
+
+</html>
